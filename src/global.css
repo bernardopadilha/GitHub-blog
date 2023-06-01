@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.focusInput {
+    @apply  focus:border-blue border-2 border-solid outline-none
+}
+
+body {
+    @apply bg-base-background font-Nunito
+}
+
+p {
+    @apply text-base-text text-base
+}
+
+h1 {
+    @apply text-base-title font-bold text-3xl
+}
